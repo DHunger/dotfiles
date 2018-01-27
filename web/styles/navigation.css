@@ -1,0 +1,486 @@
+/* Stylesheet Navigation */
+
+ #header #menue ul#nav_main{
+    text-align: center;
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: default !important;
+}
+
+ #header #menue ul#nav_main a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ #header #menue ul#nav_main li{
+    float: left;
+    position: relative;
+    list-style-type: none !important;
+}
+
+ #header #menue ul#nav_main li.zwnav{
+    width: 20px;
+}
+
+ #header #menue ul#nav_main li.start{
+    background: #00909b;
+    background: -webkit-linear-gradient(#00909b, #00808b);
+    background: linear-gradient(#00909b, #00808b);
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    width: 137px;
+    height: 49px;
+    font: normal 700 24px/49px "Calibri", sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 0 #000;
+    border: none;
+}
+
+ #header #menue ul#nav_main li.start_b{
+    background: #00909b;
+    background: -webkit-linear-gradient(#00909b, #00808b);
+    background: linear-gradient(#00909b, #00808b);
+    border-radius: 5px;
+    color: #aaa;
+    display: inline-block;
+    width: 137px;
+    height: 49px;
+    font: normal 700 24px/49px "Calibri", sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 0 #000;
+    border: none;
+}
+
+ #header #menue ul#nav_main li.fotos{
+    background: #00909b;
+    background: -webkit-linear-gradient(#00909b, #00808b);
+    background: linear-gradient(#00909b, #00808b);
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    width: 137px;
+    height: 49px;
+    font: normal 700 24px/49px "Calibri", sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 0 #000;
+    border: none;
+}
+
+ #header #menue ul#nav_main li.fotos_b{
+    background: #00909b;
+    background: -webkit-linear-gradient(#00909b, #00808b);
+    background: linear-gradient(#00909b, #00808b);
+    border-radius: 5px;
+    color: #aaa;
+    display: inline-block;
+    width: 137px;
+    height: 49px;
+    font: normal 700 24px/49px "Calibri", sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 0 #000;
+    border: none;
+}
+
+ #header #menue ul#nav_main li.wir{
+    background: #00909b;
+    background: -webkit-linear-gradient(#00909b, #00808b);
+    background: linear-gradient(#00909b, #00808b);
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    width: 137px;
+    height: 49px;
+    font: normal 700 22px/49px "Calibri", sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 0 #000;
+    border: none;
+}
+
+ #header #menue ul#nav_main li.wir_b{
+    background: #00909b;
+    background: -webkit-linear-gradient(#00909b, #00808b);
+    background: linear-gradient(#00909b, #00808b);
+    border-radius: 5px;
+    color: #aaa;
+    display: inline-block;
+    width: 137px;
+    height: 49px;
+    font: normal 700 22px/49px "Calibri", sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 0 #000;
+    border: none;
+}
+
+ #header #menue ul#nav_main li.aktuelles{
+    background: #00909b;
+    background: -webkit-linear-gradient(#00909b, #00808b);
+    background: linear-gradient(#00909b, #00808b);
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    width: 137px;
+    height: 49px;
+    font: normal 700 24px/49px "Calibri", sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 0 #000;
+    border: none;
+}
+
+ #header #menue ul#nav_main li.aktuelles_b{
+    background: #00909b;
+    background: -webkit-linear-gradient(#00909b, #00808b);
+    background: linear-gradient(#00909b, #00808b);
+    border-radius: 5px;
+    color: #aaa;
+    display: inline-block;
+    width: 137px;
+    height: 49px;
+    font: normal 700 24px/49px "Calibri", sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 0 #000;
+    border: none;
+}
+
+ #header #menue ul#nav_main li.links{
+    background: #00909b;
+    background: -webkit-linear-gradient(#00909b, #00808b);
+    background: linear-gradient(#00909b, #00808b);
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    width: 137px;
+    height: 49px;
+    font: normal 700 24px/49px "Calibri", sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 0 #000;
+    border: none;
+}
+
+ #header #menue ul#nav_main li.links_b{
+    background: #00909b;
+    background: -webkit-linear-gradient(#00909b, #00808b);
+    background: linear-gradient(#00909b, #00808b);
+    border-radius: 5px;
+    color: #aaa;
+    display: inline-block;
+    width: 137px;
+    height: 49px;
+    font: normal 700 24px/49px "Calibri", sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 0 #000;
+    border: none;
+}
+
+ #header #menue ul#nav_main li.start:hover{
+    background: #00909b;
+    background: -webkit-linear-gradient(#00909b, #00808b);
+    background: linear-gradient(#00909b, #00808b);
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    width: 137px;
+    height: 49px;
+    font: normal 700 24px/49px "Calibri", sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 0 #000;
+    border: none;
+    box-shadow: 1px 1px 0 #000000;
+}
+
+ #header #menue ul#nav_main li.start_b:hover{
+    background: #00909b;
+    background: -webkit-linear-gradient(#00909b, #00808b);
+    background: linear-gradient(#00909b, #00808b);
+    border-radius: 5px;
+    color: #aaa;
+    display: inline-block;
+    width: 137px;
+    height: 49px;
+    font: normal 700 24px/49px "Calibri", sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 0 #000;
+    border: none;
+    box-shadow: 1px 1px 0 #000000;
+}
+
+ #header #menue ul#nav_main li.fotos:hover{
+    background: #00909b;
+    background: -webkit-linear-gradient(#00909b, #00808b);
+    background: linear-gradient(#00909b, #00808b);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    width: 137px;
+    height: 49px;
+    font: normal 700 24px/49px "Calibri", sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 0 #000;
+    border: none;
+    box-shadow: 1px 1px 0 #000000;
+}
+
+ #header #menue ul#nav_main li.fotos_b:hover{
+    background: #00909b;
+    background: -webkit-linear-gradient(#00909b, #00808b);
+    background: linear-gradient(#00909b, #00808b);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    color: #aaa;
+    display: inline-block;
+    width: 137px;
+    height: 49px;
+    font: normal 700 24px/49px "Calibri", sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 0 #000;
+    border: none;
+    box-shadow: 1px 1px 0 #000000;
+}
+
+ #header #menue ul#nav_main li.wir:hover{
+    background: #00909b;
+    background: -webkit-linear-gradient(#00909b, #00808b);
+    background: linear-gradient(#00909b, #00808b);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    width: 137px;
+    height: 49px;
+    font: normal 700 22px/49px "Calibri", sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 0 #000;
+    border: none;
+    box-shadow: 1px 1px 0 #000000;
+}
+
+ #header #menue ul#nav_main li.wir_b:hover{
+    background: #00909b;
+    background: -webkit-linear-gradient(#00909b, #00808b);
+    background: linear-gradient(#00909b, #00808b);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    color: #aaa;
+    display: inline-block;
+    width: 137px;
+    height: 49px;
+    font: normal 700 22px/49px "Calibri", sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 0 #000;
+    border: none;
+    box-shadow: 1px 1px 0 #000000;
+}
+
+ #header #menue ul#nav_main li.aktuelles:hover{
+    background: #00909b;
+    background: -webkit-linear-gradient(#00909b, #00808b);
+    background: linear-gradient(#00909b, #00808b);
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    width: 137px;
+    height: 49px;
+    font: normal 700 24px/49px "Calibri", sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 0 #000;
+    border: none;
+    box-shadow: 1px 1px 0 #000000;
+}
+
+ #header #menue ul#nav_main li.aktuelles_b:hover{
+    background: #00909b;
+    background: -webkit-linear-gradient(#00909b, #00808b);
+    background: linear-gradient(#00909b, #00808b);
+    border-radius: 5px;
+    color: #aaa;
+    display: inline-block;
+    width: 137px;
+    height: 49px;
+    font: normal 700 24px/49px "Calibri", sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 0 #000;
+    border: none;
+    box-shadow: 1px 1px 0 #000000;
+}
+
+ #header #menue ul#nav_main li.links:hover{
+    background: #00909b;
+    background: -webkit-linear-gradient(#00909b, #00808b);
+    background: linear-gradient(#00909b, #00808b);
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    width: 137px;
+    height: 49px;
+    font: normal 700 24px/49px "Calibri", sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 0 #000;
+    border: none;
+    box-shadow: 1px 1px 0 #000000;
+}
+
+ #header #menue ul#nav_main li.links_b:hover{
+    background: #00909b;
+    background: -webkit-linear-gradient(#00909b, #00808b);
+    background: linear-gradient(#00909b, #00808b);
+    border-radius: 5px;
+    color: #aaa;
+    display: inline-block;
+    width: 137px;
+    height: 49px;
+    font: normal 700 24px/49px "Calibri", sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 0 #000;
+    border: none;
+    box-shadow: 1px 1px 0 #000000; 
+}
+
+ #header #menue ul#nav_main li ul.dropdown_main{
+    background-color: #00808b;
+    position: absolute;
+    left: 0;
+    top: 45px;
+    width: 165px;
+    padding: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow: 1px 1px 0 #000000;
+}
+
+ #header #menue ul#nav_main li ul li{
+    float: none;
+    text-align: left;
+    display: block;
+    color: #FFFFFF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+ #header #menue ul#nav_main li ul li.bold{
+    float: none;
+    text-align: left;
+    display: block;
+    color: #aaa;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+ #header #menue ul#nav_main li ul li:hover{
+    float: none;
+    text-align: left;
+    display: block;
+    color: #808080;
+    background-color: #00909b;
+    padding-top: 5px;
+    padding-bottom: 5px; 
+}
+
+ #header #menue ul#nav_main li ul li.bold:hover{
+    float: none;
+    text-align: left;
+    display: block;
+    color: #808080;
+    background-color: #00909b;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+ #header #menue ul#nav_main li>ul{
+    display: none;
+}
+
+ #header #menue ul#nav_main li:hover>ul{
+    display: block;
+}
+
+/* Left Navigation */
+
+#header #menue ul#nav_left{
+    text-align: center;
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: default !important;
+}
+
+ #header #menue ul#nav_left a{
+    text-decoration: none;
+    color: #000000;
+}
+
+ #header #menue ul#nav_left li{
+    float: left;
+    position: relative;
+    list-style-type: none;
+}
+ #header #menue ul#nav_main li.zwnav{
+    width: 10px;
+}
+
+#header #menue ul#nav_left li.impressum{
+    background: #00909b;
+    background: -webkit-linear-gradient(#00909b, #00808b);
+    background: linear-gradient(#00909b, #00808b);
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    width: 68px;
+    height: 24px;
+    font: normal 700 12px/24px "Calibri", sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 0 #000;
+    border: none;
+}
+
+#header #menue ul#nav_left li.impressum:hover{
+    background: #00909b;
+    background: -webkit-linear-gradient(#00909b, #00808b);
+    background: linear-gradient(#00909b, #00808b);
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    width: 68px;
+    height: 24px;
+    font: normal 700 12px/24px "Calibri", sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 0 #000;
+    border: none;
+    box-shadow: 1px 1px 0 #000000;
+}
+
+#header #menue ul#nav_left li.impressum_b{
+    background: #00909b;
+    background: -webkit-linear-gradient(#00909b, #00808b);
+    background: linear-gradient(#00909b, #00808b);
+    border-radius: 5px;
+    color: #aaa;
+    display: inline-block;
+    width: 68px;
+    height: 24px;
+    font: normal 700 12px/24px "Calibri", sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 0 #000;
+    border: none;
+}
+
+#header #menue ul#nav_left li.impressum_b:hover{
+    background: #00909b;
+    background: -webkit-linear-gradient(#00909b, #00808b);
+    background: linear-gradient(#00909b, #00808b);
+    border-radius: 5px;
+    color: #aaa;
+    display: inline-block;
+    width: 68px;
+    height: 24px;
+    font: normal 700 12px/24px "Calibri", sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 0 #000;
+    border: none;
+    box-shadow: 1px 1px 0 #000000;
+}

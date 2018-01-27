@@ -1,0 +1,77 @@
+/* Stylesheet jrk-krähenwinkel.de */
+@import url("leitung.css");
+@import url("history.css");
+@import url("navigation.css");
+@import url("news.css");
+@import url("aktuelles.css");
+
+html {
+  overflow-y: scroll; 
+}
+
+body{
+    margin: 0;
+    background: #ddefef;
+}
+
+#wrapper{
+    width: 100%;
+    padding: 0;
+    border: 0;
+}
+/* Head_men*/
+#head_men {
+    border: 0;
+    background-color: #00a0ab;
+}
+
+/* Header */
+ #header {
+    width: 100%;
+ }
+ #header #title{
+    background-color: #00a0ab;
+    height: 1.1em;
+    
+} 
+
+ #header #title #logo {
+  margin: 0;
+	position: relative;
+	top: -4px;
+	left: -3px;
+	bottom: 4px;
+	right: 3px;
+	vertical-align: super;
+}
+
+#header #title #date {
+    margin: 0;
+    position: relative;
+    color: #fff;
+}
+
+/* Menue */
+ #header #menue{
+   display: block;
+   text-align: center;
+   background-color: #00a0ab;
+   width: 100%;
+}
+
+/* Main */
+ #main{
+    vertical-align: middle; 
+    /*overflow-y: scroll;*/
+    margin-top: 0;
+    width: 100%;
+}
+
+#main #mail_feedback {
+  font-size: 2em;
+}
+
+/* Footer */
+ #footer{
+     
+}

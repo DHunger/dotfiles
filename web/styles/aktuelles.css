@@ -1,0 +1,19 @@
+
+
+#aktuelles table tr td {
+	font-size: 1em;
+}
+
+#aktuelles table tr td div {
+	font-size: 0.9em;
+}
+
+#aktuelles table tr.old td {
+	color: #556767;
+	font-size: 0.8em;
+}
+
+#aktuelles table tr.old td div {
+	color: #556767;
+	font-size: 0.75em
+}
