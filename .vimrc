@@ -1,16 +1,16 @@
 no <up> ddkP
-no <left> <Nop>
-no <right> <Nop>
+no <left> :tabprevious<CR>
+no <right> :tabnext<CR>
 no <down> ddp
 
 ino <up> <Nop>
-ino <left> <Nop>
-ino <right> <Nop>
+ino <left> <ESC>:tabprevious<CR>a
+ino <right> <ESC>:tabnext<CR>a
 ino <down> <Nop>
 
 vno <up> <Nop>
-vno <left> <Nop>
-vno <right> <Nop>
+vno <left> <ESC>:tabprevious<CR>
+vno <right> <ESC>:tabnext<CR>
 vno <down> <Nop>
 
 "" set colortheme
@@ -26,11 +26,9 @@ filetype plugin indent on
 no <C-t> :NERDTreeToggle<CR>
 no <C-f> :NERDTreeFocus<CR>
 
-"" Tab keys
-no <C-Tab> :tabnext<CR>
-no <C-S-Tab> :tabpreveous<CR>
-ino <C-Tab> <ESC>:tabnext<CR>
-ino <C-S-Tab> <ESC>:tabprevious<CR>
+"" Tab kecs
+no <right> :tabnext<CR>
+no <left> :tabprevious<CR>
 
 "" Auto Center
 no G Gzz
@@ -44,3 +42,13 @@ ino <leader>' ''<ESC>i
 ino <leader>( ()<ESC>i
 ino <leader>{ {}<ESC>i
 ino <leader>[ []<ESC>i
+
+""HTML Replace
+iabbr ü &uuml;
+iabbr Ü &Uuml;
+iabbr ö &ouml;
+iabbr Ö &Ouml;
+iabbr ä &auml;
+iabbr Ä &Äuml;
+iabbr ß &szlig;
+ino <leader><CR> <br /><CR>
