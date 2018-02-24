@@ -8,13 +8,13 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/o
+~MSle0/\.html
 
 # Last Substitute Search Pattern:
-~MSle0&o
+~MSle0~&o
 
 # Last Substitute String:
-$
+$h
 
 # Command Line History (newest to oldest):
 :q
@@ -69,7 +69,6 @@ $
 :e inc/footer.php
 
 # Search String History (newest to oldest):
-? @$
 ?/*
 ? o
 ? <ESC>*
@@ -111,57 +110,33 @@ $
 # Input Line History (newest to oldest):
 
 # Registers:
-""0	LINE	0
-	        if(strpos($path,"fotos")!==false){echo "<br /><a href='#top'>Zum Seitenanfang</a><br />";}
-"1	LINE	0
-	        if(strpos($path,"fotos")!==false){echo "<br /><a href='#top'>Zum Seitenanfang</a><br />";}
+""1	LINE	0
+	>>>>>>> 8c7757cdb2cc09aa5e29c65496430ed31ad4a27b
 "2	LINE	0
-	#footer #layout_up {
-		min-height: 0px;
-	}
-"3	CHAR	0
-	1 {
-	    background: #00909b;
-	    background: -webkit-linear-gradient(#00909b, #00808b);
-	    background: linear-gradient(#00909b, #00808b);
-	    border-radius: 5px;
-	    color: #fff;
-	    display: inline-block;
-	    width:
-"4	CHAR	0
-	:tabprevious<CR>
 	
-"5	BLOCK	0
-	<
-	<
+"3	LINE	0
+		+	1	0
+"4	LINE	0
+		+	1	0
+"5	LINE	0
+		+	1	0
 "6	LINE	0
-	
+		+	1	0
 "7	LINE	0
-	""Commands
+		+	1	0
 "8	LINE	0
-	endfun
+		+	1	0
 "9	LINE	0
-		execute "x"
-"a@	CHAR	0
-	c$<Nop>
+		+	1	0
 "-	CHAR	0
-	FALSE
+	<<<<<<< HEAD
 
 # File marks:
-'0  8  0  ~/
-'1  36  18  ~/web/index.php
-'2  19  96  ~/web/inc/footer.php
-'3  10  26  ~/web/inc/footer.php
-'4  44  8  ~/web/index.php
-'5  1  0  ~/web/NERD_tree_1
-'6  7  45  ~/web/inc/footer.php
-'7  99  0  ~/web/NERD_tree_2
-'8  7  7  ~/web/news.php
-'9  146  0  ~/web/NERD_tree_2
+'0  1365  0  ~/.viminfo
 
 # Jumplist (newest first):
--'  8  0  ~/
--'  1  0  ~/
+-'  1365  0  ~/.viminfo
+-'  1  0  ~/.viminfo
 -'  36  18  ~/web/index.php
 -'  16  0  ~/web/NERD_tree_1
 -'  1  0  ~/web/NERD_tree_1
@@ -261,48 +236,20 @@ $
 
 # History of marks within files (newest to oldest):
 
-> ~/NERD_tree_1
-	"	4	0
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
+> ~/.viminfo
+	"	1365	0
+	.	1148	0
+	+	72	0
+	+	102	0
+	+	113	0
+	+	115	0
+	+	116	0
+	+	117	0
+	+	116	0
+	+	213	0
+	+	1148	0
+
+> >>>>>> 8c7757cdb2cc09aa5e29c65496430ed31ad4a27b
 
 > ~/web/NERD_tree_1
 	"	16	0
