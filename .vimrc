@@ -1,17 +1,25 @@
 no <up> ddkP
-no <left> :tabprevious<CR>
-no <right> :tabnext<CR>
+no <left> <Nop>
+no <right> <Nop>
 no <down> ddp
 
 ino <up> <Nop>
-ino <left> <ESC>:tabprevious<CR>a
-ino <right> <ESC>:tabnext<CR>a
+ino <left> <Nop>
+ino <right> <Nop>
 ino <down> <Nop>
 
 vno <up> <Nop>
-vno <left> <ESC>:tabprevious<CR>
-vno <right> <ESC>:tabnext<CR>
+vno <left> <Nop>
+vno <right> <Nop>
 vno <down> <Nop>
+
+
+ino <C-h> <ESC>:tabprevious<CR>a
+ino <C-l> <ESC>:tabnext<CR>a
+vno <C-h> <ESC>:tabprevious<CR>
+vno <C-l> <ESC>:tabnext<CR>
+no <C-h> :tabprevious<CR>
+no <C-l> :tabnext<CR>
 
 "" set colortheme
 colorscheme delek
@@ -26,15 +34,18 @@ filetype plugin indent on
 no <C-t> :NERDTreeToggle<CR>
 no <C-f> :NERDTreeFocus<CR>
 
-"" Tab kecs
-no <right> :tabnext<CR>
-no <left> :tabprevious<CR>
+""Line Numbers
+set number relativenumber
+
+""Autosave
+ino <ESC> <ESC>:w<CR>
+ino <C-ESC> <ESC>:w<CR>
 
 "" Auto Center
 no G Gzz
 no gg ggzz
-no [ [zz
-no ] ]zz
+no { {zz
+no } }zz
 
 "" matching thingies
 ino <leader>" ""<ESC>i
@@ -44,11 +55,11 @@ ino <leader>{ {}<ESC>i
 ino <leader>[ []<ESC>i
 
 ""HTML Replace
-iabbr ü &uuml;
-iabbr Ü &Uuml;
-iabbr ö &ouml;
-iabbr Ö &Ouml;
-iabbr ä &auml;
-iabbr Ä &Äuml;
-iabbr ß &szlig;
+""iabbr ü &uuml;
+""iabbr Ü &Uuml;
+""iabbr ö &ouml;
+""iabbr Ö &Ouml;
+""iabbr ä &auml;
+""iabbr Ä &Äuml;
+""iabbr ß &szlig;
 ino <leader><CR> <br /><CR>
