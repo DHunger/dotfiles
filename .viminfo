@@ -18,12 +18,19 @@ $h
 
 # Command Line History (newest to oldest):
 :q
+:e web
+:source $MYVIMRC
 :w
+:split
+:wincmd l
+:next
+:new
+:vsplit
+:e $MYVIMRC
 :qall
 :Gcommit -m "Finished Footer"
 :Git add .
 :Gcommit -m ´"Finished Footer"
-:source $MYVIMRC
 :'<,'>s:o:h
 :'<,'>s:<ESC>*:<Nop>
 :'<,'>s:<ESC>:tab*>a:<Nop>
@@ -40,7 +47,6 @@ $h
 :c
 :C
 :W
-:next
 :Gcommit -m "Bugfixing"
 :Git checkout develop
 :q!
@@ -61,12 +67,6 @@ $h
 :e 2017.php
 :w 2017.php
 :w:w
-:qall!
-:tabnew inc/tools.php
-:%s:td#news ::
-:tabnew styles/style.css
-:tabnew styles/buttons.css
-:e inc/footer.php
 
 # Search String History (newest to oldest):
 ?/*
@@ -110,31 +110,34 @@ $h
 # Input Line History (newest to oldest):
 
 # Registers:
-""1	LINE	0
-	>>>>>>> 8c7757cdb2cc09aa5e29c65496430ed31ad4a27b
+"1	LINE	0
+	no <C-left> <C-w>h
 "2	LINE	0
-	
+	no <C-left> <C-w>h
 "3	LINE	0
-		+	1	0
+	no <A-l> <C-w>l<C-w>_
 "4	LINE	0
-		+	1	0
+	no <A-l> <C-w>l<C-w>_
 "5	LINE	0
-		+	1	0
+	no <A-l> <C-w>l<C-w>_
 "6	LINE	0
-		+	1	0
+	no <A-l> <C-w>l<C-w>_
 "7	LINE	0
-		+	1	0
+	no <A-l> <C-w>l<C-w>_
 "8	LINE	0
-		+	1	0
+	no <A-l> <C-w>l<C-w>_
 "9	LINE	0
-		+	1	0
-"-	CHAR	0
-	<<<<<<< HEAD
+	no <A-l> <C-w>l<C-w>_
+""-	CHAR	0
+	A-l> <C-w>l<C-w>_
 
 # File marks:
-'0  1365  0  ~/.viminfo
+'0  27  18  ~/.vimrc
+'1  1365  0  ~/.viminfo
 
 # Jumplist (newest first):
+-'  27  18  ~/.vimrc
+-'  2  0  ~/.vimrc
 -'  1365  0  ~/.viminfo
 -'  1  0  ~/.viminfo
 -'  36  18  ~/web/index.php
@@ -232,9 +235,118 @@ $h
 -'  74  0  ~/web/styles/style.css
 -'  56  13  ~/web/index.php
 -'  19  96  ~/web/inc/footer.php
--'  11  0  ~/web/NERD_tree_2
 
 # History of marks within files (newest to oldest):
+
+> ~/.vimrc
+	"	27	18
+	^	27	19
+	.	27	18
+	+	12	21
+	+	13	22
+	+	2	10
+	+	2	21
+	+	7	16
+	+	8	17
+	+	12	16
+	+	13	17
+	+	46	20
+	+	12	3
+	+	13	3
+	+	7	3
+	+	8	3
+	+	2	2
+	+	2	12
+	+	63	1
+	+	62	1
+	+	62	0
+	+	64	1
+	+	65	1
+	+	66	1
+	+	67	1
+	+	68	1
+	+	69	1
+	+	70	1
+	+	71	21
+	+	71	8
+	+	71	7
+	+	71	7
+	+	71	6
+	+	71	5
+	+	71	20
+	+	52	5
+	+	53	5
+	+	71	37
+	+	2	0
+	+	7	21
+	+	8	22
+	+	7	16
+	+	8	17
+	+	70	0
+	+	71	0
+	+	70	0
+	+	70	0
+	+	70	0
+	+	18	27
+	+	19	0
+	+	21	0
+	+	19	0
+	+	21	0
+	+	19	30
+	+	20	26
+	+	21	29
+	+	28	25
+	+	7	0
+	+	21	9
+	+	28	9
+	+	2	15
+	+	3	15
+	+	7	15
+	+	8	16
+	+	12	15
+	+	13	16
+	+	47	22
+	+	17	7
+	+	18	7
+	+	19	7
+	+	20	7
+	+	21	6
+	+	28	6
+	+	3	0
+	+	4	0
+	+	5	0
+	+	6	0
+	+	7	0
+	+	6	0
+	+	5	0
+	+	4	0
+	+	3	0
+	+	1	0
+	+	29	0
+	+	22	0
+	+	16	16
+	+	25	76
+	+	28	20
+	+	28	0
+	+	28	0
+	+	28	0
+	+	27	0
+	+	25	0
+	+	27	0
+	+	28	0
+	+	27	0
+	+	28	0
+	+	27	0
+	+	27	0
+	+	27	0
+	+	28	0
+	+	26	0
+	+	27	18
+
+> ~/NERD_tree_1
+	"	1	0
+	.	1	0
+	+	1	0
 
 > ~/.viminfo
 	"	1365	0
@@ -669,111 +781,6 @@ $h
 	.	63	4
 	+	1	0
 	+	63	4
-
-> ~/.vimrc
-	"	22	6
-	^	22	7
-	.	22	6
-	+	43	0
-	+	43	0
-	+	43	0
-	+	43	0
-	+	43	0
-	+	43	0
-	+	43	0
-	+	43	0
-	+	43	8
-	+	43	0
-	+	43	2
-	+	43	0
-	+	43	2
-	+	43	0
-	+	43	0
-	+	2	0
-	+	2	10
-	+	43	18
-	+	2	26
-	+	2	10
-	+	2	0
-	+	7	32
-	+	8	29
-	+	13	28
-	+	43	0
-	+	38	24
-	+	2	15
-	+	2	26
-	+	7	21
-	+	8	22
-	+	12	21
-	+	13	22
-	+	2	10
-	+	2	21
-	+	7	16
-	+	8	17
-	+	12	16
-	+	13	17
-	+	41	20
-	+	12	3
-	+	13	3
-	+	7	3
-	+	8	3
-	+	2	2
-	+	2	12
-	+	58	1
-	+	57	1
-	+	57	0
-	+	59	1
-	+	60	1
-	+	61	1
-	+	62	1
-	+	63	1
-	+	64	1
-	+	65	1
-	+	66	21
-	+	66	8
-	+	66	7
-	+	66	7
-	+	66	6
-	+	66	5
-	+	66	20
-	+	47	5
-	+	48	5
-	+	66	37
-	+	2	0
-	+	7	21
-	+	8	22
-	+	7	16
-	+	8	17
-	+	65	0
-	+	66	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	18	27
-	+	19	0
-	+	21	0
-	+	19	0
-	+	21	0
-	+	19	30
-	+	20	26
-	+	21	29
-	+	22	25
-	+	7	0
-	+	21	9
-	+	22	9
-	+	2	15
-	+	3	15
-	+	7	15
-	+	8	16
-	+	12	15
-	+	13	16
-	+	42	22
-	+	17	7
-	+	18	7
-	+	19	7
-	+	20	7
-	+	21	6
-	+	22	6
 
 > ~/web/inc/cookies.php
 	"	8	54
