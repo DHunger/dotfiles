@@ -13,13 +13,18 @@ vno <left> <Nop>
 vno <right> <Nop>
 vno <down> <Nop>
 
-
+"" Tab Navigation
 ino <C-h> <ESC>:tabprevious<CR>a
 ino <C-l> <ESC>:tabnext<CR>a
 vno <C-h> <ESC>:tabprevious<CR>
 vno <C-l> <ESC>:tabnext<CR>
 no <C-h> :tabprevious<CR>
 no <C-l> :tabnext<CR>
+
+""Buffer Navigation
+no <C-up> :vsplit<CR>
+no <C-left> <C-w>h
+no <C-right> <C-w>l
 
 "" set colortheme
 colorscheme delek
