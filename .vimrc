@@ -29,6 +29,10 @@ no <C-right> <C-w>l
 "" set colortheme
 colorscheme delek
 
+"" enable utf-8
+set encoding=utf-8
+set fileencoding=utf-8
+
 "" Pathogen
 
 call pathogen#infect()
