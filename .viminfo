@@ -17,10 +17,12 @@
 $h
 
 # Command Line History (newest to oldest):
-:q
-:e web
+:qa!
 :source $MYVIMRC
+:hi Statement ctermfg=green
+:q
 :w
+:e web
 :split
 :wincmd l
 :next
@@ -65,8 +67,6 @@ $h
 :e
 :e :qall!
 :e 2017.php
-:w 2017.php
-:w:w
 
 # Search String History (newest to oldest):
 ?/*
@@ -111,31 +111,48 @@ $h
 
 # Registers:
 "1	LINE	0
-	no <C-left> <C-w>h
+	hi Todo 
 "2	LINE	0
-	no <C-left> <C-w>h
+	B
 "3	LINE	0
-	no <A-l> <C-w>l<C-w>_
+	B
 "4	LINE	0
-	no <A-l> <C-w>l<C-w>_
+	B
 "5	LINE	0
-	no <A-l> <C-w>l<C-w>_
+	no <C-left> <C-w>h
 "6	LINE	0
-	no <A-l> <C-w>l<C-w>_
+	no <C-left> <C-w>h
 "7	LINE	0
 	no <A-l> <C-w>l<C-w>_
 "8	LINE	0
 	no <A-l> <C-w>l<C-w>_
 "9	LINE	0
 	no <A-l> <C-w>l<C-w>_
+"a@	CHAR	0
+	0ihi j
 ""-	CHAR	0
-	A-l> <C-w>l<C-w>_
+	""Lin
 
 # File marks:
-'0  27  18  ~/.vimrc
-'1  1365  0  ~/.viminfo
+'0  3  0  ~/web/inc/form.php
+'1  1  0  ~/NERD_tree_1
+'2  1  82  ~/ksp.sh
+'3  1  0  /mnt/c/program files (x86)/steam/steamapps/common/kerbal space program/ships/script
+'4  27  18  ~/.vimrc
+'5  1365  0  ~/.viminfo
 
 # Jumplist (newest first):
+-'  3  0  ~/web/inc/form.php
+-'  54  38  ~/.vimrc
+-'  53  23  ~/.vimrc
+-'  55  0  ~/.vimrc
+-'  48  0  ~/.vimrc
+-'  46  1  ~/.vimrc
+-'  1  0  ~/.vimrc
+-'  1  0  ~/NERD_tree_1
+-'  30  0  ~/NERD_tree_1
+-'  1  82  ~/ksp.sh
+-'  1  0  /mnt/c/program files (x86)/steam/steamapps/common/kerbal space program/ships/script
 -'  27  18  ~/.vimrc
 -'  2  0  ~/.vimrc
 -'  1365  0  ~/.viminfo
@@ -217,76 +234,41 @@ $h
 -'  355  2  ~/web/NERD_tree_1
 -'  63  0  ~/web/index.php
 -'  11  29  ~/web/index.php
--'  4  0  ~/web/index.php
--'  369  0  ~/web/NERD_tree_1
--'  374  2  ~/web/NERD_tree_1
--'  1  0  ~/web/inc/error.php
--'  329  0  ~/web/NERD_tree_2
--'  350  2  ~/web/NERD_tree_2
--'  32  0  ~/web/aktuelles/2017.php
--'  379  0  ~/web/NERD_tree_1
--'  395  2  ~/web/NERD_tree_1
--'  17  66  ~/web/inc/footer.php
--'  14  0  ~/web/inc/footer.php
--'  403  0  ~/web/NERD_tree_1
--'  420  2  ~/web/NERD_tree_1
--'  426  0  ~/web/NERD_tree_1
--'  438  2  ~/web/NERD_tree_1
--'  74  0  ~/web/styles/style.css
--'  56  13  ~/web/index.php
--'  19  96  ~/web/inc/footer.php
 
 # History of marks within files (newest to oldest):
 
 > ~/.vimrc
-	"	27	18
-	^	27	19
-	.	27	18
-	+	12	21
-	+	13	22
-	+	2	10
-	+	2	21
-	+	7	16
-	+	8	17
-	+	12	16
-	+	13	17
-	+	46	20
-	+	12	3
-	+	13	3
-	+	7	3
-	+	8	3
-	+	2	2
-	+	2	12
-	+	63	1
-	+	62	1
-	+	62	0
-	+	64	1
-	+	65	1
-	+	66	1
-	+	67	1
-	+	68	1
-	+	69	1
-	+	70	1
-	+	71	21
-	+	71	8
-	+	71	7
-	+	71	7
-	+	71	6
-	+	71	5
-	+	71	20
-	+	52	5
-	+	53	5
-	+	71	37
+	"	54	38
+	^	54	39
+	.	54	38
+	+	71	0
+	+	73	1
+	+	74	1
+	+	75	1
+	+	76	1
+	+	77	1
+	+	78	1
+	+	79	1
+	+	80	21
+	+	80	8
+	+	80	7
+	+	80	7
+	+	80	6
+	+	80	5
+	+	80	20
+	+	61	5
+	+	62	5
+	+	80	37
 	+	2	0
 	+	7	21
 	+	8	22
 	+	7	16
 	+	8	17
-	+	70	0
-	+	71	0
-	+	70	0
-	+	70	0
-	+	70	0
+	+	79	0
+	+	80	0
+	+	79	0
+	+	79	0
+	+	79	0
 	+	18	27
 	+	19	0
 	+	21	0
@@ -305,7 +287,7 @@ $h
 	+	8	16
 	+	12	15
 	+	13	16
-	+	47	22
+	+	56	22
 	+	17	7
 	+	18	7
 	+	19	7
@@ -342,11 +324,50 @@ $h
 	+	28	0
 	+	26	0
 	+	27	18
+	+	46	5
+	+	46	1
+	+	46	1
+	+	46	21
+	+	53	22
+	+	47	2
+	+	47	2
+	+	52	2
+	+	54	0
+	+	54	0
+	+	53	11
+	+	53	0
+	+	53	0
+	+	53	0
+	+	53	24
+	+	53	0
+	+	54	38
 
 > ~/NERD_tree_1
-	"	1	0
+	"	13	0
 	.	1	0
 	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/web/inc/form.php
+	"	3	0
+	^	3	0
+	.	2	5
+	+	2	5
+
+> ~/ksp.sh
+	"	1	82
+	^	1	20
+	.	1	82
+	+	1	30
+	+	1	0
+	+	1	0
+	+	1	82
+
+> /mnt/c/program files (x86)/steam/steamapps/common/kerbal space program/ships/script
+	"	1	0
 
 > ~/.viminfo
 	"	1365	0
@@ -945,9 +966,6 @@ $h
 	.	37	65
 	+	35	69
 	+	37	65
-
-> ~/web/inc/form.php
-	"	1	0
 
 > ~/web/inc/header.php
 	"	22	30

@@ -43,6 +43,15 @@ filetype plugin indent on
 no <C-t> :NERDTreeToggle<CR>
 no <C-f> :NERDTreeFocus<CR>
 
+"" NERDTree Highlight
+hi NERDTreeDir ctermfg=red ctermbg=none
+hi NERDTreeDirSlash ctermfg=11
+hi NERDTreeExecFile ctermfg=darkred
+hi NERDTreeUp ctermfg=darkgreen
+hi NERDTreeCloseable ctermfg=yellow ctermbg=darkyellow
+hi NERDTreeOpenable ctermfg=green ctermbg=darkgreen
+match Todo "\m//TODO:.*$"
+hi Todo ctermfg=green ctermbg=darkgreen
 ""Line Numbers
 set number relativenumber
 
