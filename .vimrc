@@ -27,7 +27,7 @@ no <C-left> <C-w>h
 no <C-right> <C-w>l
 
 "" set colortheme
-colorscheme delek
+colorscheme desert
 
 "" enable utf-8
 set encoding=utf-8
@@ -59,6 +59,9 @@ set number relativenumber
 ino <ESC> <ESC>:w<CR>
 ino <C-ESC> <ESC>:w<CR>
 
+"" Up and Download
+no <C-u> :Silent expect -f ~/upload.exp dev %<CR>
+no <C-d> :Silent expect -f ~/download.exp dev %<CR>
 "" Auto Center
 no G Gzz
 no gg ggzz
@@ -72,12 +75,16 @@ ino <leader>( ()<ESC>i
 ino <leader>{ {}<ESC>i
 ino <leader>[ []<ESC>i
 
-""HTML Replace
-""iabbr ü &uuml;
-""iabbr Ü &Uuml;
-""iabbr ö &ouml;
-""iabbr Ö &Ouml;
-""iabbr ä &auml;
-""iabbr Ä &Äuml;
-""iabbr ß &szlig;
-ino <leader><CR> <br /><CR>
+function Silent(args)
+	execute 'silent !' . a:args
+	execute 'redraw!'
+endfunction
+
+command -nargs=1 Silent call Silent(<q-args>)
+
+function Q()
+	execute 'Silent expect -f ~/upload.exp dev %'
+	execute 'q'
+endfunction
+
+command Q call Q()
