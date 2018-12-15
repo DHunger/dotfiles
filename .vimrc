@@ -52,8 +52,39 @@ hi NERDTreeCloseable ctermfg=yellow ctermbg=darkyellow
 hi NERDTreeOpenable ctermfg=green ctermbg=darkgreen
 match Todo "\m//TODO:.*$"
 hi Todo ctermfg=green ctermbg=darkgreen
+
+""Map Leader
+let mapleader="#"
+
+""Tab size
+set tabstop=2 softtabstop=0 noexpandtab
+
 ""Line Numbers
 set number relativenumber
+
+""Switch . and ,
+ino . ,
+ino , .
+
+""HTML Entities
+ino ü &uuml;
+ino !ü! ü
+ino ö &ouml;
+ino !ö! ö 
+ino ä &auml;
+ino !ä! ä
+ino Ü &Uuml;
+ino !Ü! Ü
+ino Ö &Ouml;
+ino !Ö! Ö
+ino Ä &Auml;
+ino !Ä! Ä
+ino & &amp;
+ino !&! &
+ino !<! &lt;
+ino !>! &gt;
+ino " &quot;
+ino !"! "
 
 ""Autosave
 ino <ESC> <ESC>:w<CR>
